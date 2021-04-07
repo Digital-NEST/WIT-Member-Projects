@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+      <head>
+       <meta charset="utf-8">
+       <meta http-eqiv="x-ua-compatible" content="ie-edge">
+       <meta name="Noel's About me" content="This is a project where you'll learn more about me">
+       <link rel="stylesheet" type="text/css" href="styles.css">
+       <title> Noel's Page </title>
+      <head>
+
+    <body>
+        <h1 id="title"> Welcome </h1>
+        <h2 id="sub-title">  </h2>
+
+
+      <div class="row">
+          <!-- Section 1 -->
+        <div class="column">
+          <h3 id="sub-sub-title"> Random facts about me </h3>
+          <p> Press the button below and a random fact about me will appear </p>
+          <button id="button" onclick="buttonClick()"> Click here </button>
+          <p id="output"> </p>
+        </div>
+
+
+         <!-- Section 2 -->
+        <div class="column">
+           <h3 id="sub-sub-title"> Do we have the same taste in movie genre? </h3>
+           <p> Select your prefered movie genre below : </p>
+           <select name="movie" id="choices" onchange="changeOption(this)">
+             <option selected="selected" value="Horror"> Horror </option>
+             <option selected="selected" value="Comedy"> Comedy </option>
+             <option selected="selected" value="Drama"> Drama </option>
+             <option selected="selected" value="Action"> Action </option>
+             <option selected="selected" value="Romance"> Romance </option>
+             <option selected="selected" value="Sci-fi"> Sci-fi </option>
+             <option selected="selected" value="Adventure"> Adventure </option>
+           </select>
+           <br />
+         <p id="list-output"></p>
+
+        </div>
+
+       <!-- Section 3 -->
+       <div class="column">
+         <h3 id="sub-sub-title"> Some of my favorite video games: </h3>
+         <a href="https://www.telltale.com/the-wolf-among-us/">The Wolf Among Us </a>
+         <br />
+         <a href="https://store.playstation.com/en-us/product/UP2908-CUSA16490_00-TWDTDS0000000000?emcid=se-pi-230663&gclid=CjwKCAjwmf_4BRABEiwAGhDfSZ_TpXVWkMplC2sgGJ3-mFttG_ruNUpDO_shtZxfXjyej_lBw-DvEBoCsg4QAvD_BwE&gclsrc=aw.ds"> The Walking Dead:The Telltale Definitive Series </a>
+         <br />
+         <a href="https://www.playstation.com/en-us/games/the-last-of-us-remastered-ps4/"> The last of Us </a>
+       </div>
+      </div>
+
+
+
+    </body>
+    <script src="index.js"> </script>
+  </html>

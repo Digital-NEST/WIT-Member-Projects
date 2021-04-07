@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Diego's page</title>
+    <meta name="description" content="Roughly 155 characters">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> </script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- Content -->
+    <h1 id="title"> Greetings comrades </h1>
+    <h2 id="sub-title">Check out these three sections to get to know me better </h2>
+    <div class="row">
+
+      <!-- This is my left column -->
+      <div class="column">
+        <h4 id="sub-sub-title">Flight</h4>
+        <p id="sub-sub-title"> These are how my top three favorite videogame characters look </p>
+        <img src= "https://e7.pngegg.com/pngimages/369/830/png-clipart-sonic-the-hedgehog-sonic-adventure-2-battle-sonic-the-hedgehog-2-best-free-sonic-sonic-the-hedgehog-vertebrate-thumbnail.png" width="200px">
+        <img src= "https://vignette.wikia.nocookie.net/dragonquest/images/a/ab/FC_Erdrick.png/revision/latest?cb=20200209155846" width ="200px">
+        <img src= "https://cdn.gamer-network.net/2017/usgamer/kirby_super_star_review_featured.jpg/EG11/thumbnail/1920x1080/format/jpg/quality/65/super-nes-classic-reviews-game-by-game-20-kirby-super-star.jpg" width="400px">
+
+
+
+      </div>
+    <!-- This is my middle column -->
+      <div class="column">
+        <h4 id="sub-sub-title">Speed</h4>
+        <p id= "sub-sub-title">Click this button to see my favorite videogames! </p>
+        <button id="button" onclick="buttonClick()"> Click me!</button>
+        <p id="output"> </p>
+      </div>
+
+
+
+      <!-- This is the right column -->
+      <div class="column">
+        <h4 id="sub-sub-title">Power</h4>
+        <p id= "sub-sub-title">Theses are other favorite videogame characters of mine</p>
+          <select name="colors" id="favGame" onchange="changeOption(this)">
+              <option value="sonicAdv"> Sonic </option>
+              <option value="dqIII"> Loto/Erdrick </option>
+              <option value="kibby"> Kirby </option>
+              <option value="hollowBoi"> Hollow Knight </option>
+              <option value="rbFFs"> Andy Bogard </option>
+              <option value="inFamousGood"> Cole Macgrath </option>
+              <option value="sparkMouse"> Pikachu </option>
+          </select>
+      </div>
+        <p id="list-output"> </p>
+    </div>
+  </body>
+
+  <script src="index.js"> </script>
+</html>

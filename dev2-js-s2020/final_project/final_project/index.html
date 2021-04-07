@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ileana Konviser</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+
+		<h1 id="title">Hello!</h1>
+		<h2 id="intro">Below is some information about me:</h2>
+
+		<!-- This is the first collumn -->
+		<div id="box1">
+			<h4>Fun Facts About Me</h4>
+			<p>Click the button below to find out my fun facts:</p>
+			<button id="button" onclick="buttonClick()">Click me!</button>
+			<p id="output"></p>
+		</div>
+
+	
+		<!-- This is the second column -->
+		<div id="box2">
+			<h3>Where do I want to go?</h3>
+			<p>Select a location from below to find out why</p>
+
+			<select name="places" id="choices" onchange="changeOption(this)">
+				<option value="peru">Peru</option>
+					<p>Hike up to Machu Picchu</p>
+
+				<option value="newzeland">New Zeland</option>
+					<p>Go explore Fiordland National Park</p>
+
+				<option value="morocco">Morocco</option>
+					<p>Stay in a riad</p>
+
+			</select>
+			<p id="list-output"> </p>
+		</div>
+
+	
+		<!-- This is the third column -->
+		<div id="box3">
+			<h3>Pictures of places I want to visit:</h3>
+			<p>Click on the links below to take a look</p>
+			<a href="https://www.inkayniperutours.com/blog/wp-content/uploads/2019/12/machu-Picchu.jpg" target="_blank">
+				Machu Picchu</a><br>
+			<a href="https://peakvisor.com/img/news/Fiordland-National-Park.jpg" target="_blank">Fiordland National Park</a><br>
+			<a href="https://cdn.shopify.com/s/files/1/0192/0076/files/riadyasmine11.jpg?v=1535141310" target="_blank">Riad in Morocco</a>
+
+
+	</body>
+
+	<script src="app.js"></script>
+
+</html> 

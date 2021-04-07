@@ -1,0 +1,12 @@
+div {
+    text-align: center;
+}
+h1 {
+    color:red;
+    font-family: barlow condensed;
+}
+
+#box1, #box2, #box3{
+    float: left;
+    width: 30%;
+}

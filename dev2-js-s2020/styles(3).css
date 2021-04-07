@@ -1,0 +1,30 @@
+#title
+{
+  padding-top: 100px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+#sub-title
+{
+  padding-top: 10px;
+  background-color: red;
+  width: 100%;
+  height: 50%;
+}
+
+
+.row
+{
+  padding-top; 100px;
+}
+
+.column
+{
+  float: left;
+  width: 30%;
+  height: 100px;
+  padding: 20px;
+}

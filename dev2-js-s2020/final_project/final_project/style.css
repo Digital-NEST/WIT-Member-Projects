@@ -1,0 +1,22 @@
+#box1, box2, box3 {
+	width: 33%;
+	float: left;
+}
+
+#box2 {
+	width: 33%;
+	float: left;
+}
+
+#box3 {
+	width: 33%;
+	float: left;
+}
+
+#title {
+	text-align: center;
+}
+
+#intro {
+	text-align: center;
+}

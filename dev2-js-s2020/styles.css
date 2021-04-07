@@ -1,0 +1,52 @@
+#title, #sub-title, #sub-sub-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sub-title {
+    padding-top: 100px;
+}
+
+p {
+    font-family: 'Sora', sans-serif;
+}
+
+.row {
+    padding-top: 100px;
+}
+
+#favGame {
+  position: relative;
+  top: 50%;
+  left:42%;
+}
+
+#output {
+  position: relative;
+  top: 1%;
+  right:-38%;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    height: 200px;
+    padding: 10px;
+}
+
+#button {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 15px;
+    padding: 6px;
+    border-radius: 7px;
+    font-family: 'Sora', sans-serif;
+    background-color: #858585;
+    box-shadow: rgb(0, 0, 0) 1px 1px 5px 1px;
+    border: 1px solid #858585;
+    position: relative;
+    top:50%;
+    left:40%;
+
+
+}

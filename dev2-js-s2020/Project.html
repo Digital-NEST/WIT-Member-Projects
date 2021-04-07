@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html?>
+    <title>Acerca de mi</title>
+    <head id="head">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body id="body">
+        <h1 id="hello">Hello!</h1>
+    
+    <div>
+        <div class="column">
+            <!--This is the left part-->
+            <p id="fortune">Click the button bellow for a fortune.<br>
+            <button onclick="clickButton()">Random Fortune!</button>
+            </p>
+            <!--This is a button that when clicked gives the user a random fortune-->
+            <p id="rendimiento"></p>
+            <!--This is a dropdown menu where the user can choose their favorite fast food restaurant in Watsonville-->
+        </div>
+        <div class="column">
+            <!--This is the middle part, the dropdown menu-->
+            <p id="food">What is your favorite fast food restaurant?<br>Select your favorite fast food restaurant.
+            <select name="fastFood" id="choices" onchange="optionChange(this)">
+                <option value="burgers">Innout</option>
+                <option value="Kfc">KFC</option> 
+                <option value="mcdonalds">mcdonalds</option>  
+                <option value="taco bell">Taco Bell</option>
+                <option value="chickfila">Chick Fil A</option>     
+             </select>
+            <p id="list-output"></p>
+
+            </p>
+        </div>
+        <div class="column">
+            <!--right part-->
+            <p id="string"></p>   
+            <p id="sub-title">Best restaurants in Watsonville<br>
+                <a id="sushi" href="miyuki.html" target="_blank">Miyuki restaurant</a>
+                <a id="frijolito" href="elfrijolito.html" target="_blank"><br>El frijolito</a>
+                <a id="Californiagrill" href="California_grill.png" target="_blank"><br>California Grill</a>
+            </p>
+        </div>
+    </div>
+    </body>
+
+    <script src = "app.js">
+
+    </script>
+</html>
